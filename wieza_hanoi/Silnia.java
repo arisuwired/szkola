@@ -13,6 +13,10 @@ public class Silnia {
         liczba = sc.nextInt();
         // wypisanie wyniku do standardowego wyjscia
         System.out.println(silnia(liczba));
+
+        // zamykamy scanner (w tym przypadku raczej niepotrzebne,
+        // ale wypada dla dobrego stylu)
+        sc.close();
 	}
 
     // definicja metody rekurencyjnej obliczajacej silnie
